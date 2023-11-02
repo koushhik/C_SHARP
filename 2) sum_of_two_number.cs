@@ -1,7 +1,7 @@
 ```csharp
 //C SHARP BASIC EXERCISES:
 
-//1. Write a C# Sharp program to print the sum of two numbers
+//2. Write a C# Sharp program to print the sum of two numbers
 
 
 using System;
