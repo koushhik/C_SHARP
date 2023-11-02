@@ -1,5 +1,4 @@
 ```csharp
-
 /C SHARP BASIC EXERCISES:
 
 //3. Write a C# Sharp program to print the result of dividing two numbers.
