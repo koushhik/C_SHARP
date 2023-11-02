@@ -2,7 +2,6 @@
          7. Write a C# Sharp program to print on screen the output of adding, subtracting, multiplying and dividing two numbers entered by the user.
 
 */
-
 using System;
 
 namespace Practice
