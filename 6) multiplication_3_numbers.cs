@@ -1,5 +1,5 @@
 /*
-         6) Write a C# Sharp program to print the output of the multiplication of three numbers entered by the user.
+         6) Write a C# Sharp program to print the output of the multiplication of three numbers entered by the user 
 
 */
 
