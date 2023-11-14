@@ -1,6 +1,4 @@
 
-````
-```csharp
 //C SHARP BASIC EXERCISES:
 
 //1. Write a C# Sharp program to print Hello and your name in a separate line.
@@ -30,5 +28,3 @@ namespace Practice
 
 }
 
-```
-````
