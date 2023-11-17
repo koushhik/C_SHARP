@@ -1,8 +1,23 @@
+/*
+users are given choices for the operations to be performed.
+
+Operations range from :
+Adding ,
+ Deleting ,
+ Update-Display
+ then Exit from terminal functions.
+
+Here we use list with variables declared in the constructor.
+Lists containing two variables (ID and NAME ).
+
+we use OOP(Classes and Object) for programing frame.
+with multiple methods .  
+*/
 global using global::System;
 global using global::System.Collections.Generic;
 global using global::System.IO;
 global using global::System.Linq;
-global using global::System.Net.Http;
+global using global::System.Net.Http; 
 global using global::System.Threading;
 global using global::System.Threading.Tasks;
 
