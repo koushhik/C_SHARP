@@ -1,3 +1,6 @@
+//This FILE or rather Program contains all the CRUD functions , with looping options after every operation perfomed , it contains CREATE, READ, UPDATE , DELETE , other operatuions based on ID or Name, Option to exit the terminal
+//Visually appealing color choice , vibrant end of block graphics.
+
 global using global::System;
 global using global::System.Collections.Generic;
 global using global::System.IO;
