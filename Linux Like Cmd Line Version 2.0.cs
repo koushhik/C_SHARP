@@ -53,6 +53,7 @@ namespace EmpList
 
         }
 //FIND-ID==========================================================================================================================================================================================
+//[HTTP GET-VERIFY]
         public Employee FindId(int ID)                 //METHOD TO CHECK IF THE GIVEN ID ACTUALLY CONTAINS IN THE LIST OR NOT ..!
         {
             for (int i = 0; i < employees.Count; i++)  //CREATING A LOOP TO TEST IF THE GIVEN ELEMENT MATCHES WITH THE INDEX OF LIST CONTENT
@@ -94,6 +95,7 @@ namespace EmpList
 
         }
 //ADD-EMPLOYEE==========================================================================================================================================================================================
+       //[HTTP GET]
         public void AddEmployee()
         {
             Employee emp = new Employee();
@@ -124,6 +126,7 @@ namespace EmpList
 
         }
 //REMOVE-EMPLOYEE==========================================================================================================================================================================================
+        //[HTTP-REMOVE]
         public void RemoveEmployee()
         {
             Console.ForegroundColor = ConsoleColor.Red;
@@ -143,6 +146,7 @@ namespace EmpList
             Console.ForegroundColor = ConsoleColor.White;
         }
  //SELECT-EMPLOYEE-BY-ID==========================================================================================================================================================================================
+       //[HTTP GET {ID}]
         public void SelectEmployeeById()
         {
             Console.ForegroundColor = ConsoleColor.Red;
@@ -162,6 +166,7 @@ namespace EmpList
             Console.ForegroundColor = ConsoleColor.White;
         }
 //SELECT-EMPLOYEE-BY-NAME==========================================================================================================================================================================================
+        //[HTTP-SELSCT-BY NAME]
         public void SelectEmployeeByName()
         {
             Console.ForegroundColor = ConsoleColor.Red;
@@ -189,6 +194,7 @@ namespace EmpList
             Options();
         }
 //UPDATE-EMPLOYEE==========================================================================================================================================================================================
+        //[HTTP-UPDATE?]
         public void UpdateEmployee()
         {
             Console.ForegroundColor = ConsoleColor.Red;
