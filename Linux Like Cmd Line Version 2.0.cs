@@ -1,7 +1,7 @@
 //This FILE or rather Program contains all the CRUD functions , with looping options after every operation perfomed , it contains CREATE, READ, UPDATE , DELETE , other operatuions based on ID or Name, Option to exit the terminal
 //Visually appealing color choice , vibrant end of block graphics.
-
-global using global::System;
+//\___(*_0)__?
+global using global:System;
 global using global::System.Collections.Generic;
 global using global::System.IO;
 global using global::System.Linq;
@@ -68,7 +68,7 @@ namespace EmpList
 
             return null;                               //IF NOT FOUND RETURNS NULL, MEANING EMPLOYEE NOT FOUND IN THE LIST
         }
-//EMPLOYEELIST==========================================================================================================================================================================================
+//EMPLOYEE-LIST==========================================================================================================================================================================================
         public List<Employee> EmployeeList(string EmpNme, int CHOICE)          //CREATING A METHOD OF TYPE LIST WITH INPUT VALUES OF TYPE string AND int
         {
             List<Employee> TempList = new List<Employee>();                    //WE CREATE A LIST TO STORE ALL THE DATA THAT EIGTHER STARTS WITH GIVEN DATA OR CONTAINS 
@@ -165,8 +165,8 @@ namespace EmpList
             Console.WriteLine("----------------------------------------------------------------------------------------------------------");
             Console.ForegroundColor = ConsoleColor.White;
         }
-//SELECT-EMPLOYEE-BY-NAME==========================================================================================================================================================================================
-        //[HTTP-SELSCT-BY NAME]
+//SELECT-EMPLOYEE-BY-NAME==========================================================================================================================================================================================(*)>
+        //[HTTP-SELECT-BY NAME]
         public void SelectEmployeeByName()
         {
             Console.ForegroundColor = ConsoleColor.Red;
@@ -234,7 +234,7 @@ namespace EmpList
         }
 
 
-//<<<<<<<<<<===============MAIN FUNCTION==================================================================================================================================================================
+//<<<<<<<<<<============================================================MAIN FUNCTION====================================================================================================================
         public static void Main(string[] args)
         {
             Program firstMethodCall = new Program();               //CREATING AN INSTANCE OF OBJECT FOR THE CLASS PROGRAM. Like an arrow to target particular target...!
