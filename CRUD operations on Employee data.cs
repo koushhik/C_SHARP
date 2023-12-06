@@ -44,11 +44,11 @@ namespace EmpList
             Console.WriteLine("|======================================================================|");
 
 
-            if      (key == 1) { AddEmployee();          }                                                    //CREATING METHOD CALLING BASED ON USER CHOICES
-            else if (key == 2) { RemoveEmployee();       }
-            else if (key == 3) { SelectEmployeeById();   }
-            else if (key == 4) { SelectEmployeeByName(); }
-            else if (key == 5) { UpdateEmployee();       }
+            if      (key == 1) { AddEmployee();          }  //[HttpPost]      (in .NET CORE API )                      //CREATING METHOD CALLING BASED ON USER CHOICES
+            else if (key == 2) { RemoveEmployee();       }  //[HttpRemove]    (in .NET CORE API )   
+            else if (key == 3) { SelectEmployeeById();   }  //[HttpGet{id}]   (in .NET CORE API )    
+            else if (key == 4) { SelectEmployeeByName(); }  //[HttpGet{name}] (in .NET CORE API )   
+            else if (key == 5) { UpdateEmployee();       }  //[HttpPost{id}]  (in .NET CORE API )   
             else if (key == 6) { Exit();                 }
             else               { Console.ForegroundColor = ConsoleColor.DarkRed; Console.WriteLine("|--W-R-O-N-G  O-P-T-I-O-N-S--|"); Console.ForegroundColor = ConsoleColor.White; Options(); }
 
