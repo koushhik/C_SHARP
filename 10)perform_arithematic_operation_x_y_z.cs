@@ -1,10 +1,8 @@
-
 /*
         10. Write a C# Sharp program that takes three numbers (x,y,z) as input and outputs (x+y).z and x.y + y.z
-
 */
 
-using System;
+using System; //here we use only one header , which is quite sufficient.
 
 namespace Practice
 {
