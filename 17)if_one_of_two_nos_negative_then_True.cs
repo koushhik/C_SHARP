@@ -29,7 +29,7 @@ namespace Practice
             }
             else
             {
-                Console.WriteLine("False");            //if both are positive or both negative then False is printed
+                Console.WriteLine("False");            //if both are positive or both negative then, false is printed
             }
         }
             
