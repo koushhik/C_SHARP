@@ -7,7 +7,7 @@
               Expected Output:
               Kelvin = 303
               Fahrenheit = 86
-
+"different scales are used around different regions "
 */
 
 using System;
