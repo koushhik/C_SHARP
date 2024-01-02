@@ -27,7 +27,7 @@ namespace Practice
             Console.WriteLine(a + " " + a);                //we group 2 int in next 3 rows but with one space in between to make a triangle
             Console.WriteLine(a + " " + a);
             Console.WriteLine(a + " " + a);
-            Console.WriteLine(a + "" + a + "" + a); 
+            Console.WriteLine(a + "" + a + "" + a);        //again repeting step 2
         }
     }
 
